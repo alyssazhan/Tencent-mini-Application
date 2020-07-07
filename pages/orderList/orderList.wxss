@@ -1,3 +1,4 @@
+/* pages/orderList/orderList.wxss */
 /*切换栏*/
 .swiper-tab {
   height: 40px;
