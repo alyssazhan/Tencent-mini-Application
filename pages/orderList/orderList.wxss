@@ -144,6 +144,6 @@
   font-size: 26rpx;
   border-radius: 20rpx;
   font-weight: normal;
-  border:1rpx solid #f3f3f3;
+  border:1rpx solid #e7e7e7;
   background-color:  #fff;
 }
