@@ -1,4 +1,32 @@
 /* pages/questionDetail/questionDetail.wxss */
+
+.top-wrapper{
+	flex: 1;
+	display: flex;
+	justify-content:  space-evenly;
+}
+.price{
+	color: #bbb;
+	font-size: 24rpx;
+	display: flex;
+}
+.top-info{
+	color: black;
+	font-size: 35rpx;
+	justify-content:  space-evenly;
+	text-align: center;
+}
+.cnt{
+	color: #bbb;
+	font-size: 24rpx;
+	text-align: center;
+}
+
+.top-info span{
+	text-align: center;
+}
+
+
 .ques-wrapper{
 	padding: 30rpx;
 	background-color: #fff;
@@ -15,6 +43,7 @@
 	height: 80rpx;
 	border-radius: 50%;
 }
+/* name & ques or ans */
 .ques-sec{
 	margin-left: 20rpx;
 	flex: 1;
@@ -114,3 +143,4 @@
 	max-height: 100px;
 	border-radius: 5%;
 }
+
