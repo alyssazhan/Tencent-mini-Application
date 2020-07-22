@@ -1,0 +1,46 @@
+<!--pages/questionDetail/questionDetail.wxml-->
+<view>
+  <view class="ques-wrapper">
+  <view class="ques-Details">
+<view class="ques-info">
+      <image src="../../images/people1.jpeg"></image>
+      <view class="ques-sec">
+        <view class="ques-user" >Lucy<view class="ques-user" > 提问</view></view>
+      </view>
+      <view class="line"></view>
+    </view>
+    <view class="ques-content">
+      <text>2020了，应该如何选校选专业。。。</text>
+      <view class="question-images">
+            <image src="../../images/testOrderPage.jpg"> </image>
+      </view>
+    </view>
+  </view>
+      <view class="ans-info" >
+      <view>
+        <text >2020.02.02 17.59.02</text>
+      </view>    
+    </view>
+    <view class="ans-Details">
+      <view class="ques-info" >
+      
+      <view class="ans-sec">
+        <view class="ans-user" ><view class="ans-user" > Bob</view>回答</view>
+        <image src="../../images/people2.jpeg"></image>
+      </view>
+      <view class="line"></view>
+      </view>
+      <view class="ques-content" >
+        <text>首先。。。。其次。。。。。最后。。。。</text>
+                   <view class="question-images">
+            <image src="../../images/testOrderPage.jpg"> </image>
+      </view>
+      </view>
+      </view>
+        <view class="ans-info" >
+      <view>
+        <text >2020.02.02 18.59.02</text>
+      </view>    
+    </view>
+  </view> 
+</view>
