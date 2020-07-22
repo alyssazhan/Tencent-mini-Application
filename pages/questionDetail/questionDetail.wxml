@@ -1,11 +1,9 @@
 <!--pages/questionDetail/questionDetail.wxml-->
 <view>
- <view class="top-wrapper">
-        <view class="top-info" ><view class="price" > 价格（元）</view> <span>1</span></view>
-         <view class="top-info" ><view class="cnt" > 旁听 </view> <span>1</span></view>
+    <view class="top-wrapper">
+      <view class="top-info" ><view class="price" > 价格（元）</view> <span>1</span></view>
+        <view class="top-info" ><view class="cnt" > 旁听 </view> <span>1</span></view>
       </view>
-
-
   <view class="ques-wrapper">
   <view class="ques-Details">
   <view class="ques-info">
@@ -20,13 +18,14 @@
       <view class="question-images">
             <image src="../../images/testOrderPage.jpg"> </image>
       </view>
-    </view>
-  </view>
-      <view class="ans-info" >
+           <view class="ans-info" >
       <view>
         <text >2020.02.02 17.59.02</text>
       </view>    
     </view>
+    </view>
+  </view>
+
     <view class="ans-Details">
       <view class="ques-info" >
       
@@ -41,13 +40,13 @@
                    <view class="question-images">
             <image src="../../images/testOrderPage.jpg"> </image>
       </view>
-      </view>
-      </view>
-        <view class="ans-info" >
+              <view class="ans-info" >
       <view>
         <text >2020.02.02 18.59.02</text>
       </view>    
     </view>
+      </view>
+      </view>
+      <button class="pic-btn">去旁听</button>
   </view> 
-
 </view>
