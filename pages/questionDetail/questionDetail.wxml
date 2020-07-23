@@ -47,6 +47,6 @@
     </view>
       </view>
       </view>
-      <button class="pic-btn">去旁听</button>
+      <button class="btn" style="width: 90%; height: 30px; border-radius: 40rpx;">去旁听</button>
   </view> 
 </view>
