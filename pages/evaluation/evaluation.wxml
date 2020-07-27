@@ -3,7 +3,7 @@
 <form bindsubmit="onSubmit">
   <view class='textarea'>
     <textarea placeholder-class='textarea-text' placeholder='期待您的评论' name="text"></textarea>
-    <view class='title'>添加图片:(最多四张)</view>
+    <view class='title'>添加图片:(最多两张)</view>
     <view class='picture'>
        <view class='picture' wx:if="{{!is_upload}}" >
         <view class='picture_item' bindtap="chooseImage">
@@ -35,7 +35,7 @@
       </view>
     </view>
   </view>
-    <button class='release' form-type='submit'>发布</button>
+    <button class='release' form-type='submit' style="width: 95%; ">发布</button>
     </form>
 </view>
 

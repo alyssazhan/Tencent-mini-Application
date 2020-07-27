@@ -1,7 +1,9 @@
 {
   "pages":[
-    "pages/evaluation/evaluation",
+
     "pages/questionDetail/questionDetail",
+    "pages/evaluation/evaluation",
+    
     "pages/answer/answer",
     "pages/orderList/orderList",
     "pages/index/index",

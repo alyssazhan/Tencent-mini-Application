@@ -1,12 +1,16 @@
 .contains{
   color:#ccc;
-  font-size: 34rpx;
-  margin: 15rpx;
+  font-size: 24rpx;
+  margin: 50rpx;
 }
 .release{
-  width: 90%; 
+  width: 100%; 
   height: 30px;
   border-radius: 40rpx;
+  font-size: 24rpx;
+  margin-top: 30rpx ;
+  /* width: 90%; */
+  height: 30px; 
 }
 
 .score{
@@ -20,12 +24,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 34rpx;
+  font-size: 24rpx;
   justify-content: space-between;
 }
 .score-left image{
   height: 100rpx;
   width: 100rpx;
+  border-radius: 20rpx;
 }
 .score-right{
   height: 100rpx;
@@ -38,6 +43,7 @@
   width: 40rpx;
   height: 40rpx;
   margin-right: 12rpx;
+  border-radius: 20rpx;
 }
 .score_text{
   width: 150rpx;
@@ -48,12 +54,14 @@
 .textarea{
   position: relative;
   margin-top: 20rpx;
-  height: 540rpx;
-  width: 100%;
+  height: 700rpx;
+  width: 97%;
   border-bottom: 1rpx #e6e6e6 solid;
 }
 .textarea textarea{
-  height: 200rpx;
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+  height: 300rpx;
   width: 100%;
   border:0.1rpx solid #efefef;
   border-radius: 15rpx;
@@ -62,15 +70,18 @@
 }
 .textarea-text{
   color: #ccc;
-  font-size: 34rpx;
+  font-size: 24rpx;
 }
 .textarea .title{
   margin:10rpx 0;
+  font-size: 24rpx;
+ 
 }
 .picture{
   z-index: 99;
   display: flex;
   flex-direction: row;
+  border-radius: 20rpx;
 }
 
 .picture_item{
@@ -100,6 +111,7 @@
 .picture_upload image{
   height: 180rpx;
   width: 180rpx;
+  border-radius: 20rpx;
 }
 .picture_delete{
   width: 180rpx;
@@ -117,4 +129,5 @@
 .picture_delete image{
   width: 50rpx;
   height: 50rpx;
+  border-radius: 20rpx;
 }
