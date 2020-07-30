@@ -1,10 +1,9 @@
 {
   "pages":[
+
+
+
     
-    "pages/userAccount/useraccount",
-
-    "pages/question/question",
-
     "pages/orderList/orderList",
     "pages/index/index",
     "pages/logs/logs"
