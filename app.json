@@ -1,13 +1,15 @@
 {
   "pages":[
-<<<<<<< Updated upstream
-=======
+
+    "pages/questionDetail/questionDetail",
+    "pages/evaluation/evaluation",
+    "pages/answer/answer",
+
     "pages/userAccount/useraccount",
     "pages/questionDetail/questionDetail",
     "pages/question/question",
     "pages/evaluation/evaluation",
     "pages/answer/answer",
->>>>>>> Stashed changes
     "pages/orderList/orderList",
     "pages/index/index",
     "pages/logs/logs"
