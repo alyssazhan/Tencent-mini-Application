@@ -3,11 +3,15 @@
 
     "pages/questionDetail/questionDetail",
     "pages/evaluation/evaluation",
-    
+    "pages/answer/answer",
+
+    "pages/userAccount/useraccount",
+    "pages/questionDetail/questionDetail",
+    "pages/question/question",
+    "pages/evaluation/evaluation",
     "pages/answer/answer",
     "pages/orderList/orderList",
     "pages/index/index",
-    "pages/question/question",
     "pages/logs/logs"
   ],
   "window":{
