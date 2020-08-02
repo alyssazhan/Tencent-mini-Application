@@ -12,9 +12,7 @@
         </text>
     <view class="master-follow" bindtap="submitQuestion" data-img="{{img}}" data-name="{{name}}">提问</view>
   </view>
-</view>
-
-    
+</view>  
   <!--评论列表-->
   <view class="c_wrapper" >
     <view class="c_btn">
@@ -41,7 +39,7 @@
  <!--公开咨询列表-->
   <view class="c_wrapper" >
     <view class="c_btn">
-      <text>公开</text><text bindtap='toQuestions' class="to_comment">查看{{q_num}}条咨询></text>
+      <text>公开咨询</text><text bindtap='toQuestions' class="to_comment">查看{{q_num}}条咨询></text>
     </view>
 <view class="c_item_wrapper">
     <view class="comments">
