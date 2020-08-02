@@ -18,7 +18,6 @@
     <view class="question-images-tool">
       <button class="pic-btn" type="default" bindtap="chooseImage" wx:if="{{images.length < 3}}">添加图片</button>
     </view>
-
     <!-- 图片缩略图  -->
     <view class="question-images">
       <block wx:for="{{images}}" wx:key="*this">

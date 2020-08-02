@@ -1,82 +1,62 @@
 <view name="master-column">
-  <view class="master-info" id="{{key}}">
-    <image src="{{userimg}}"></image>
-    <view class="master-brief">
-      <view class="master-user">{{name}}</view>
-      <view class="master-intro">{{content}}</view>
-      <view class="master-fans">{{fans}} 人已关注</view>
-    </view>
+    <view class="master-info" id="{{key}}">
+      <image src="{{userimg}}"></image>
+      <view class="master-brief">
+        <view class="master-user">{{name}}</view>
+        <view class="master-intro">{{content}}</view>
+        <view class="master-fans">{{fans}} 人已关注</view>
+      </view>
 
-    <text decode="{{true}}">
-      \n &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
-   </text>
-    <view class="master-follow" bindtap="toPerson" data-img="{{img}}" data-name="{{name}}">提问</view>
+        <text decode="{{true}}">
+          \n &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+        </text>
+    <view class="master-follow" bindtap="submitQuestion" data-img="{{img}}" data-name="{{name}}">提问</view>
   </view>
 </view>
-<!-- 评价详情 -->
-  <!-- <view wx:if="{{feed_length!=0}}">
-    <block wx:for="{{feed}}" wx:for-index="idx" wx:for-item="item" data-idx="{{idx}}">
-      <view class="feed-item" bindtap="bindStory" data-url="{{item.img}}" data-title="{{item.title}}" data-isfree="{{item.isfree}}" data-name="{{item.name}}">
-        <view class="feed-source">
-          <a class="">
-            <view class="avatar">
-              <image src="{{item.img}}"></image>
-            </view>
-            <text>{{item.name}} \n{{item.title}}</text>
-          </a>
-          <image class="item-look" mode="aspectFit" src="../../images/eye.png"></image>
-        </view>
-          </view>
-    </block>
-  </view> -->
+
     
   <!--评论列表-->
-  <view class="c_wrapper">
-<text>评价</text>
+  <view class="c_wrapper" >
+    <view class="c_btn">
+      <text>评价</text><text class="to_comment"  bindtap='toComments'>查看{{c_num}}条评价></text>
+    </view>
 <view class="c_item_wrapper">
     <view class="comments">
       <view class="item touch-active" >
-        <view class="i-left">
-          <image class="c-u-img" src="{{c_user_img}}"></image>
+        <view class="i-left"><image class="c-u-img" src="{{c_user_img}}"></image>
         </view>
         <view class="i-right">
           <view class="top">
             <text class="u-name">{{c_user_name}}</text>
             <text class="time">{{c_time}}</text>
           </view>
-          <!--评论内容-->
-          <view class="content">
-            {{c_content}}
-          </view>
-          <view class="line"></view>
+            <!--评论内容-->
+              <view class="content">{{c_content}}</view>
         </view>
       </view>
     </view>
-    <!-- second -->
-    <view class="c_item_wrapper">
+      </view>
+    </view>
+
+ <!--公开咨询列表-->
+  <view class="c_wrapper" >
+    <view class="c_btn">
+      <text>公开</text><text bindtap='toQuestions' class="to_comment">查看{{q_num}}条咨询></text>
+    </view>
+<view class="c_item_wrapper">
     <view class="comments">
       <view class="item touch-active" >
-        <view class="i-left">
-          <image class="c-u-img" src="{{c_user_img}}"></image>
+        <view class="i-left"><image class="c-u-img" src="{{q_user_img}}"></image>
         </view>
         <view class="i-right">
           <view class="top">
-            <text class="u-name">{{c_user_name}}</text>
-            <text class="time">{{c_time}}</text>
+            <text class="u-name">{{q_user_name}}</text>
+            <text class="time">{{q_time}}</text>
           </view>
-          <!--评论内容-->
-          <view class="content">
-            {{c_content}}
-          </view>
-          <view class="line"></view>
+            <!--评论内容-->
+              <view class="content">{{q_content}}</view>
         </view>
       </view>
     </view>
-    </view>
-
-  <!-- second comment end -->
       </view>
-</view>
-
-
-
+    </view>
