@@ -1,7 +1,7 @@
 {
-  "pages":[
-    "pages/question/question",
+  "pages":[    
     "pages/userAccount/useraccount",
+    "pages/question/question",
     "pages/commentList/commentList",
     "pages/evaluation/evaluation",
     "pages/questionDetail/questionDetail",
